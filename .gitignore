@@ -1,0 +1,12 @@
+# Package Files #
+*.jar
+
+# Build files #
+target/
+
+# Runtime files #
+logs/
+
+# Intellij #
+*.iml
+.idea/

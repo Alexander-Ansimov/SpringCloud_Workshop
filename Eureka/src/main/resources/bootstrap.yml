@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Eureka
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
