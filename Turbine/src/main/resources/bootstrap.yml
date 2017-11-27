@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Turbine
+
+server.port: 8060
+
+eureka:
+ client:
+   fetchRegistry: true
+   registerWithEureka: true
+   serviceUrl:
+     defaultZone: http://localhost:8761/eureka
+
+turbine:
+  aggregator:
+    clusterConfig: EUREKA
+  appConfig: Eureka

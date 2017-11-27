@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shop_2</artifactId>
+    <artifactId>HystrixDashboard</artifactId>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -31,13 +31,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>
