@@ -1,6 +1,6 @@
 spring.application.name: Shop
 
-server.port: 8080
+server.port: 8081
 
 eureka:
  client:
