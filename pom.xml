@@ -15,7 +15,6 @@
         <module>shop_2</module>
         <module>User</module>
         <module>HystrixDashboard</module>
-        <module>Turbine</module>
     </modules>
 
 
