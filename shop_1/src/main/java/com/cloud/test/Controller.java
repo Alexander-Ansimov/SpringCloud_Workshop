@@ -11,9 +11,13 @@ public class Controller {
     @Autowired
     private Client client;
 
-    @HystrixCommand
+    @HystrixCommand(defaultFallback = "defaultAnswer")
     @GetMapping("/")
     public String makeShopping() {
         return "I'm SHOP number ONE  !!!!!!!!!:  " + client.getGoodsFromWarehouse();
+    }
+
+    private String defaultAnswer() {
+        return "I'm SHOP number ONE  !!!!!!!!!:    WAREHOUSE is NOT available now !";
     }
 }

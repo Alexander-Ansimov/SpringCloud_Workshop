@@ -10,5 +10,5 @@ eureka:
      defaultZone: http://localhost:8761/eureka
 
 turbine:
-  appConfig: Shop,User
+  appConfig: Shop,User,Warehouse
   clusterNameExpression: new String("default")
