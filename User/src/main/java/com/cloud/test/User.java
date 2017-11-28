@@ -15,7 +15,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 public class User {
 
     @Autowired
-    Client client;
+    private Client client;
 
     public static void main(String[] args) {
         SpringApplication.run(User.class, args);

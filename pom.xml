@@ -13,6 +13,7 @@
         <module>shop_1</module>
         <module>shop_2</module>
         <module>User</module>
+        <module>Warehouse</module>
     </modules>
 
 
