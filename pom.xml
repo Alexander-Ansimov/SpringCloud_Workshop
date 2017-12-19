@@ -16,6 +16,7 @@
         <module>User</module>
         <module>Warehouse</module>
         <module>HystrixDashboard</module>
+        <module>Zuul</module>
     </modules>
 
 </project>
