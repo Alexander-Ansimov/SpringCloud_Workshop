@@ -15,6 +15,9 @@ zuul:
   # next line for ignoring all registered services
   #ignored-services: "*"
   routes:
+    user:
+      path: /
+      serviceId: USER
     search:
       path: /search
       url: http://google.com

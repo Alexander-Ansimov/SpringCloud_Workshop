@@ -1,4 +1,4 @@
-spring.application.name: HystrixDashboard
+spring.application.name: Dashboard
 
 server.port: 8070
 
